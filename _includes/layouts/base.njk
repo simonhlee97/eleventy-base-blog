@@ -7,34 +7,57 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    <header style='text-align:center;'>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
+	  	<li class="nav-item"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
+	  	<li class="nav-item left-facing"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       </ul>
+
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      <div class="warning">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.io/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
 
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class='footer'>
+		<div class="social-flex-container">
+			<div class="my-links">
+				<a href="https://simonhlee97.github.io/" target="_blank"><i class="far fa-address-book my-social"></i></a>
+			</div>
+			<div class="my-links">
+				<a href="https://linkedin.com/in/simon-h-lee/" target="_blank"><i class="fab fa-linkedin my-social"></i></a>
+			</div>
+			<div class="my-links">
+				<a href="https://github.com/simonhlee97/" target="_blank"><i class="fab fa-github my-social"></i></a>
+			</div>
+			<div class="my-links">
+				<a href="https://dev.to/simonhlee97" target="_blank"><i class="my-social fab fa-dev" title="simonhlee97's DEV Profile"></i></a>
+			</div>	
+			<div class="my-links">
+				<a href="https://codepen.io/simonhlee97" target="_blank"><i class="my-social fab fa-codepen" title="my codepen"></i></a>
+			</div> 
+			<div class="my-links">
+				<a href="https://twitter.com/simonhlee97" target="_blank"><i class="my-social fab fa-twitter" title="twitter"></i></a>
+			</div>  
+		</div>
+		<div id='copyright'>
+			Built with <a style="color:white;" href="https://11ty.dev" target="_blank">Eleventy</a><br>
+			Copyright 2020 RyuCave.com
+		</div>
+
+		
+	</footer>
+
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
