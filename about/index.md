@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # A B O U T
 
-Born in Korea, and grew up in Hoosier country (Indiana).
+Born in Korea 🇰🇷, and grew up in Hoosier country (Indiana) 🇺🇸.
 
 I'm a part of that tribe of rednecks from Indiana trapped in a Korean man's body.
 
@@ -31,9 +31,9 @@ I was a math teacher in the US for a few years before deciding it was time to mo
 
 This blog will include all topics except web development, because I do all my web-dev writing at [Dev.to](https://dev.to).
 
-## For The Tech-Nerds
+## For tech-nerds
 
-I built this site with a static site generator, [Eleventy](https://www.11ty.dev/). I also considered Gatsby (React), Gridsome (Vue), but decided to go with Eleventy because of speed and after experimenting, I enjoyed developing with just MarkDown and Nunjucks templating. This site is hosted on [Netlify](https://netlify.com).
+I built this site with a static site generator, [Eleventy](https://www.11ty.dev/). I also considered Gatsby (React), Gridsome (Vue), but decided to go with Eleventy because of speed and after experimenting, I enjoyed developing with just MarkDown and Nunjucks templating (without any CMS). This site is hosted on [Netlify](https://netlify.com).
 
 <img id='simon-bw' src='https://res.cloudinary.com/ryucave/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1591855412/simon/simon-b-w_kaag8v.jpg' alt='Simon' />
 

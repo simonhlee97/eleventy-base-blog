@@ -12,7 +12,6 @@
   </head>
   <body>
     <header style='text-align:center;'>
-
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
 	  	<li class="nav-item"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
@@ -21,9 +20,7 @@
       {%- endfor %}
 	  	<li class="nav-item left-facing"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       </ul>
-
     </header>
-
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
