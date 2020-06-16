@@ -38,7 +38,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 3rem 5rem;
+  padding: 3rem 5.5rem;
 }
 main :first-child {
   margin-top: 0;
@@ -147,14 +147,7 @@ pre {
 	transform: rotateY(180deg);
 }
 
-/* Posts list */
-/* .postlist li {
-  border-bottom: 1px solid var(--darkgray);
-}
 
-.postlist li:last-child {
-  border-bottom: none
-} */
 #dotted-hr {
 	border-top: 1px var(--darkgray);
 	border-style: dotted;
@@ -247,15 +240,25 @@ a[href].direct-link:focus:visited,
 
 
 /* Simon CSS - - - - - - - - - - - - - - - -  */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+
+#blog-name {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+
 .wide-letter-space {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 .site-name {
 	color: var(--darkred);
-	font-size:10vw;
-	text-align:center;
+	font-size:6vw;
 	font-weight: 900;
+	font-family: 'Orbitron', sans-serif;
 }
 #simon-bw {
 	border-radius: 50%;
@@ -315,6 +318,35 @@ a[href].direct-link:focus:visited,
 }
 
 /* Masonry Image Grid  */
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
 .gridcontainer {
 	display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -347,4 +379,40 @@ a[href].direct-link:focus:visited,
     .tile{
         margin-bottom: 1rem;
     }
+}
+
+
+
+
+@keyframes ryuleft {
+  0%   {left:-300px;}
+  100% {left:0px;}
+}
+@keyframes ryuright {
+  0%   {left:-300px;}
+  100% {left:0px;}
+}
+.ryu {
+	animation-name: ryuleft;
+	animation-duration: 3s;
+	position: relative;
+}
+.ryu-r {
+	animation-name: ryuright;
+	animation-duration: 3s;
+	position: relative;
+}
+
+/*  Masonry Grid Layouts   */
+.grid-item { 
+	width: 200px;
+	background-color: blueviolet;
+}
+.grid-item--width2 {
+	width: 300px;
+	background-color: #93bdec;
+}
+.grid-item--width3 {
+	width: 400px;
+	background-color: #65d45b;
 }

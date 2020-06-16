@@ -13,16 +13,15 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 
-### some photos
-<div class="gridcontainer">
-    <div class="tile"><img src="https://images.dog.ceo/breeds/wolfhound-irish/n02090721_348.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/terrier-scottish/n02097298_3641.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/beagle/n02088364_2502.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/puggle/IMG_074532.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/pinscher-miniature/n02107312_6580.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/springer-english/n02102040_6846.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/terrier-silky/n02097658_4952.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/terrier-american/n02093428_16682.jpg" alt="pup" /></div>
-    <div class="tile"><img src="https://images.dog.ceo/breeds/terrier-sealyham/n02095889_396.jpg" alt="pup" /></div>
+### Some Masonry Layout 
+<div class="grid">
+  <div class="grid-item"> i t e m 1</div>
+  <div class="grid-item grid-item--width2">i t e m 200</div>
+  <div class="grid-item">i t e m 3</div>
+
+  <div class="grid-item"> i t e m 1</div>
+  <div class="grid-item grid-item--width3">green 300</div>
+  <div class="grid-item">i t e m 3</div>
 </div>
+
 

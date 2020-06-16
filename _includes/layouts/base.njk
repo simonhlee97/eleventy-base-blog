@@ -14,11 +14,11 @@
     <header style='text-align:center;'>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
-	  	<li class="nav-item"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
+	  	<li class="nav-item"><img class='ryu' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
-	  	<li class="nav-item left-facing"><img style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
+	  	<li class="nav-item left-facing"><img class='ryu-r' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       </ul>
     </header>
 
@@ -57,5 +57,7 @@
 
 
     <!-- Current page: {{ page.url | url }} -->
+
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   </body>
 </html>
