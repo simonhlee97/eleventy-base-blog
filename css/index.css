@@ -153,19 +153,32 @@ pre {
 	border-style: dotted;
 }
 
-.postlist {
-  list-style: none;
-  padding: 0;
+.postlist2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+.postlist2 > div {
+  background-color: dodgerblue;
+  margin: 14px;
+  padding: 15px;
+  max-width: 99%;
+  flex-grow: 1;
+  flex-basis: 22em;
+}
+
 .postlist-item {
   counter-increment: start-from -1;
   height: 140px;
+  margin: 1em 1em;
   /* margin-bottom: 1em; */
 }
 .postlist-item:hover {
 	background-color: var(--lightgray);
 }
 .postlist-item:before {
+	margin: 1em 1em;
   display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
@@ -194,16 +207,19 @@ pre {
 
 
 /* Tags */
+.tag:hover {
+	background-color: var(--blue);
+}
 .tag {
   display: inline-block;
-  vertical-align: text-top;
+  /* vertical-align: text-top; */
   text-transform: uppercase;
-  font-size: 0.625em; /* 10px /16 */
-  padding: 2px 4px;
+  font-size: 0.65em; /* 10px /16 */
+  padding: 12px 17px 9px 15px;
   margin-left: 0.8em; /* 8px /10 */
   background-color: var(--red);
   color: var(--white);
-  border-radius: 0.25em; /* 3px /12 */
+  border-radius: 0.29em;
   text-decoration: none;
 }
 a[href].tag,
@@ -240,6 +256,7 @@ a[href].direct-link:focus:visited,
 
 
 /* Simon CSS - - - - - - - - - - - - - - - -  */
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 
@@ -302,7 +319,8 @@ a[href].direct-link:focus:visited,
   height: 60px;
 }
 #intro {
-	
+	text-align:center;
+	width: 90%;
 	margin: 4.5rem auto;
 }
 #copyright {
@@ -312,6 +330,9 @@ a[href].direct-link:focus:visited,
 #archive{
 	margin: 5rem 0;
 } 
+.the-latest-list {
+	text-align: center;
+}
 
 .post-title {
 	color: var(--darkred);

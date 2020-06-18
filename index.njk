@@ -12,13 +12,19 @@ eleventyNavigation:
 
 <div id='intro'>
 	<h1 class='wide-letter-space'>Hey, I'm Simon.</h1>
-	<p>Thanks for visiting my blog.</p>
+	<h4>Thanks for visiting my blog.</h4>
 </div>
 
-<h1 class='wide-letter-space'>Latest Posts</h1>
+<div class='the-latest-list'>
+	<h4 class='wide-letter-space'>Latest Posts</h4>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+	{% set postslist = collections.posts | head(-3) %}
+	{% set postslistCounter = collections.posts | length %}
+	{% include "postslist.njk" %}
 
-<p id='archive'>More posts <i class="far fa-arrow-alt-circle-right"></i> <a href="{{ '/posts/' | url }}">Archive</a></p>
+	<div id='archive'>More posts <i class="far fa-arrow-alt-circle-right"></i> <a href="{{ '/posts/' | url }}">Archive</a></div>
+
+</div>
+
+
+

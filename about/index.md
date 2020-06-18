@@ -13,13 +13,12 @@ Born in Korea 🇰🇷, and grew up in Hoosier country (Indiana) 🇺🇸.
 
 I'm a part of that tribe of rednecks from Indiana trapped in a Korean man's body.
 
-I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, and coffee.
+I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, coffee, Led Zeppelin, Pink Floyd, and Simon and Garfunkel.
 
 As of now (June 2020) I'm currently stuck in South Korea due to COVID-19 (which is probably a good thing). I'll be moving back to the US in a year or two.
 
 ## Some of my favorite Podcasts, Blogs, etc.
 
-* [Sam Harris](https://www.samharris.org)
 * [Freakonomics](https://freakonomics.com)
 * [Dan Pink](https://danpink.com)
 * [Matt Mullenweg](https://ma.tt)
