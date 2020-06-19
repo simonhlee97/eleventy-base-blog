@@ -2,9 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1 class='post-title'>{{ title }}</h1>
-<p>{{ date | readableDate }}</p>
-
+<h1 style='text-align:center;' class='post-title'>{{ title }}</h1>
+<p style='text-align:center;width:100%;margin:0 auto;'>{{ date | readableDate }}</p>
 {{ content | safe }}
-
-<p><a href="{{ '/' | url }}"><i class="far fa-arrow-alt-circle-left fa-2x"></i> Home</a></p>
+<p style='margin-top:4em;text-align:center;'><a href="{{ '/' | url }}"><i class="far fa-arrow-alt-circle-left fa-2x"></i> Home</a></p>
