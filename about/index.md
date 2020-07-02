@@ -6,16 +6,17 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
+<div class="content">
 
-# A B O U T
+<h1 class='has-text-centered'>A B O U T</h1>
 
-Born in Korea 🇰🇷, and grew up in Hoosier country (Indiana) 🇺🇸.
+<p>Born in Korea 🇰🇷, and grew up in Hoosier country (Indiana) 🇺🇸.</p>
 
-I'm a part of that tribe of rednecks from Indiana trapped in a Korean man's body.
+<p>I'm a part of that tribe of rednecks from Indiana trapped in a Korean man's body.</p>
 
-I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, coffee, Led Zeppelin, Pink Floyd, and Simon and Garfunkel.
+<p>I love basketball (Pacers), tennis, reading, coding, photography, tacos, pizza, coffee, Led Zeppelin, Pink Floyd, and Simon and Garfunkel.</p>
 
-As of now (June 2020) I'm currently stuck in South Korea due to COVID-19 (which is probably a good thing). I'll be moving back to the US in a year or two.
+<p>As of now (July 2020) I'm currently stuck in South Korea due to COVID-19 (which is probably a good thing). I'll be moving back to the US in a year or two.</p>
 
 ## Some of my favorite Podcasts, Blogs, etc.
 
@@ -36,3 +37,4 @@ I built this site with a static site generator, [Eleventy](https://www.11ty.dev/
 
 <img id='simon-bw' src='https://res.cloudinary.com/ryucave/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1591855412/simon/simon-b-w_kaag8v.jpg' alt='Simon' />
 
+</div>

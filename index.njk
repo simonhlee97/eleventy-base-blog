@@ -5,18 +5,18 @@ eleventyNavigation:
   order: 1
 ---
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
-<div id="blog-name">
+<div class="has-text-centered" id="blog-name">
 	<span class='site-name wide-letter-space'><span style='font-size:10vw;'>r</span>yu<span style='font-size:10vw;'>c</span>ave.com</span>
 </div>
 
 
 <div id='intro'>
-	<h1 class='wide-letter-space'>Hey, I'm Simon.</h1>
-	<h4>Thanks for visiting my blog.</h4>
+	<h1 class='wide-letter-space title'>Hey, I'm Simon.</h1>
+	<h4 class='subtitle'>Thanks for visiting my blog.</h4>
 </div>
 
-<div class='the-latest-list'>
-	<h4 class='wide-letter-space'>Latest Posts</h4>
+<div class='the-latest-list has-text-centered'>
+	<h1 class='wide-letter-space title is-3'>Latest Posts</h1>
 
 	{% set postslist = collections.posts | head(-3) %}
 	{% set postslistCounter = collections.posts | length %}
