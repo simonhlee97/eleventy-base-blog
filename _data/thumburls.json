@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "src": "https://placeimg.com/1000/350/any",
+      "alt": "Image one alt text"
+    },
+    {
+      "src": "https://placeimg.com/1000/350/any",
+      "alt": "Image two alt text"
+    },
+    {
+      "src": "https://placeimg.com/1000/350/any",
+      "alt": "Image 3 alt text"
+    }
+  ]
+}

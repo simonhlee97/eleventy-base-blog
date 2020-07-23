@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 <div class="content">
 
-<h1 class='has-text-centered'>A B O U T</h1>
+<h1 class='wide-letter-space has-text-centered title is-1'>A B O U T</h1>
 
 <p>Born in Korea 🇰🇷, and grew up in Hoosier country (Indiana) 🇺🇸.</p>
 
