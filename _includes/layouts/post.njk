@@ -2,8 +2,18 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+<style>
+hr.style1{
+	border-top: 1px solid;
+}
+hr.style2 {
+	border-top: 3px double;
+}
+</style>
 <div class='content'>
+	<hr class="style2 has-text-danger-dark">
 	<h1 class='title has-text-danger-dark has-text-centered'>{{ title }}</h1>
+	<hr  class="style1 has-text-danger-dark">
 
 	<p class='my-4 has-text-centered'>{{ date | readableDate }}</p>
 
