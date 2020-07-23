@@ -194,6 +194,9 @@ pre {
 #archive {
 	margin-bottom: 1.5rem;
 }
+.footer-link:hover {
+	color: var(--blue);
+}
 /* postslist background images  */
 section.bg-1 {
 	background: url('https://picsum.photos/id/3/1600/210');
