@@ -14,11 +14,11 @@
     <header style='text-align:center;'>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
-	  	<li class="nav-item"><img class='ryu' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
+	  		<li class="nav-item"><img class='ryu' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
-	  	<li class="nav-item left-facing"><img class='ryu-r' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
+	  		<li class="nav-item left-facing"><img class='ryu-r' style="height:40px;" src='https://res.cloudinary.com/ryucave/image/upload/v1591860723/simon/hadouken89_fn2qxy.jpg' alt='Ryu'/></li>
       </ul>
     </header>
 
@@ -31,10 +31,10 @@
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<div class='columns'>
-					<div class='column'><a href="https://simonhlee97.github.io/" target="_blank"><i class="far fa-address-book fa-3x my-social"></i></a></div>
-					<div class='column'><a href="https://linkedin.com/in/simon-h-lee/" target="_blank"><i class="fab fa-linkedin fa-3x my-social"></i></a></div>
-					<div class='column'><a href="https://github.com/simonhlee97/" target="_blank"><i class="fab fa-github fa-3x my-social"></i></a></div>
-					<div class='column'><a href="https://twitter.com/simonhlee97" target="_blank"><i class="fab fa-twitter fa-3x my-social"></i></a></div>
+					<div class='column'><a href="https://simonhlee97.github.io/" target="_blank"><i class="far fa-address-book fa-2x my-social"></i></a></div>
+					<div class='column'><a href="https://linkedin.com/in/simon-h-lee/" target="_blank"><i class="fab fa-linkedin fa-2x my-social"></i></a></div>
+					<div class='column'><a href="https://github.com/simonhlee97/" target="_blank"><i class="fab fa-github fa-2x my-social"></i></a></div>
+					<div class='column'><a href="https://twitter.com/simonhlee97" target="_blank"><i class="fab fa-twitter fa-2x my-social"></i></a></div>
 				</div>
 				<div id='copyright' class='subtitle'>
 					<p>Built with <a class="footer-link" href="https://11ty.dev/" target="_blank">Eleventy</a> and <a class="footer-link" href="https://bulma.io/">BulmaCSS</a></p>

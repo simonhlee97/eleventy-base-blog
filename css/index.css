@@ -199,7 +199,7 @@ pre {
 }
 /* postslist background images  */
 section.bg-1 {
-	background: url('https://picsum.photos/id/3/1600/210');
+	background: url('https://picsum.photos/id/15/1600/210');
 }
 section.bg-2 {
 	background: url('https://picsum.photos/id/18/1600/210');
@@ -211,7 +211,6 @@ section.bg-4 {
 	background: url('https://picsum.photos/id/48/1600/210');
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap'); */
 
 .wide-letter-space {
 	letter-spacing: 3px;
