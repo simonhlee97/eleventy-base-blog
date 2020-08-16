@@ -18,7 +18,7 @@ eleventyNavigation:
 <div class='the-latest-list has-text-centered'>
 	<h1 class='wide-letter-space title is-3'>Latest Posts</h1>
 
-	{% set postslist = collections.posts | head(-3) %}
+	{% set postslist = collections.posts | head(-2) %}
 	{% set postslistCounter = collections.posts | length %}
 	{% include "postslist.njk" %}
 

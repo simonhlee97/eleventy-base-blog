@@ -199,16 +199,29 @@ pre {
 }
 /* postslist background images  */
 section.bg-1 {
-	background: url('https://picsum.photos/id/15/1600/210');
+	background-image: url('https://picsum.photos/id/15/1600/250');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
 }
 section.bg-2 {
-	background: url('https://picsum.photos/id/18/1600/210');
+	background-image: url('https://picsum.photos/id/18/1600/250');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 section.bg-3 {
-	background: url('https://picsum.photos/id/38/1600/210');
+	background-image: url('https://picsum.photos/id/38/1600/250');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 section.bg-4 {
-	background: url('https://picsum.photos/id/48/1600/210');
+	background-image: url('https://picsum.photos/id/48/1600/250');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 
