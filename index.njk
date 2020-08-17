@@ -12,13 +12,13 @@ eleventyNavigation:
 
 <div id='intro'>
 	<h1 class='wide-letter-space title'>Hey, I'm Simon.</h1>
-	<h4 class='subtitle'>Thanks for visiting my blog.</h4>
+	<h4 class='subtitle'>Thanks for visiting my blog. Hadouken!</h4>
 </div>
 
 <div class='the-latest-list has-text-centered'>
-	<h1 class='wide-letter-space title is-3'>Latest Posts</h1>
+	<h1 class='wide-letter-space title is-4'>Latest Posts</h1>
 
-	{% set postslist = collections.posts | head(-2) %}
+	{% set postslist = collections.posts | head(-4) %}
 	{% set postslistCounter = collections.posts | length %}
 	{% include "postslist.njk" %}
 

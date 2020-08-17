@@ -26,24 +26,7 @@
       {{ content | safe }}
     </main>
 
-	<!-- - - -  Footer - - -->
-	<section class="mt-6 hero is-small is-dark is-bold">
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<div class='columns'>
-					<div class='column'><a href="https://simonhlee97.github.io/" target="_blank"><i class="far fa-address-book fa-2x my-social"></i></a></div>
-					<div class='column'><a href="https://linkedin.com/in/simon-h-lee/" target="_blank"><i class="fab fa-linkedin fa-2x my-social"></i></a></div>
-					<div class='column'><a href="https://github.com/simonhlee97/" target="_blank"><i class="fab fa-github fa-2x my-social"></i></a></div>
-					<div class='column'><a href="https://twitter.com/simonhlee97" target="_blank"><i class="fab fa-twitter fa-2x my-social"></i></a></div>
-				</div>
-				<div id='copyright' class='subtitle'>
-					<p>Built with <a class="footer-link" href="https://11ty.dev/" target="_blank">Eleventy</a> and <a class="footer-link" href="https://bulma.io/">BulmaCSS</a></p>
-					<br>
-					<p>Copyright 2020 RyuCave.com</p>
-				</div>
-			</div>
-		</div>
-	</section>
+		{% include "footer.njk" %}
     <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
