@@ -44,11 +44,16 @@ body {
 .tmpl-post {
 	padding: 4em 0.5em;
 }
+
+
+/* media queries default */
+
 @media only screen and (min-width: 550px) {
 	.tmpl-post {
 		padding: 4em 2.5em;
 	}
 }
+
 @media only screen and (min-width: 650px) {
 	.tmpl-post {
 		padding: 4em 4.5em;
@@ -77,11 +82,11 @@ main.tmpl-home {
 	min-height: 70vh;
 }
 
-@media only screen and (min-width: 540px) {
+/* @media only screen and (min-width: 540px) {
 	main {
   		padding: 20px;
 	}
-}
+} */
 
 header {
   border-bottom: 1px dashed var(--lightgray);
@@ -202,31 +207,50 @@ pre {
 .footer-link:hover {
 	color: var(--blue);
 }
-/* postslist background images  */
-section.bg-1 {
-	background-image: url('https://picsum.photos/id/15/1600/250');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+
+
+/* media query for postslist */
+@media screen and (min-width: 720px) {
+  .blog-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.blog-list > section {
+		width: 49%;
+		height: 380px;
+		margin: 3px;
+	}
 
 }
-section.bg-2 {
-	background-image: url('https://picsum.photos/id/18/1600/250');
+
+/* postslist background images  */
+section.backgrounds {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+/* most recent post  */
+section.bg-1 {
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+}
+section.bg-2 {
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
 }
 section.bg-3 {
-	background-image: url('https://picsum.photos/id/38/1600/250');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
 }
 section.bg-4 {
-	background-image: url('https://picsum.photos/id/48/1600/250');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+}
+section.bg-5 {
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+}
+
+/* first post */
+section.bg-6 {
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
 }
 
 

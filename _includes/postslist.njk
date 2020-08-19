@@ -1,6 +1,6 @@
-<div reversed style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+<div class="blog-list has-text-centered" reversed style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 	{% for post in postslist | reverse %}
-		<section style="margin-bottom:9px;" class="bg-{{ loop.index }} hero is-info {% if post.url == url %} {% endif %}">
+		<section style="margin-bottom:9px;" class="backgrounds bg-{{ loop.index }} hero is-info {% if post.url == url %} {% endif %}">
 			<div class="hero-body">
 				<div class="container">
 					<h1 class="title"><a class="my-a-tag" href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h1>

@@ -2,9 +2,13 @@
 permalink: /tags/
 layout: layouts/home.njk
 ---
-<h1>Tags</h1>
-
+<div class="has-text-centered pt-6">
+<h1 class='my-6 title'>Tags</h1>
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  <a href="{{ tagUrl | url }}" class="button is-light is-link">{{ tag }}</a>
 {% endfor %}
+</div>
+
+
+
