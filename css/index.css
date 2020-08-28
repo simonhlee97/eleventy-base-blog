@@ -31,8 +31,15 @@ body {
 	transform: scale(1.4);
 	color: white;
 }
+.postlist-date, .my-excerpt {
+	background-color: rgba(32, 30, 30, 0.514);
+	padding: 2px;
+}
+
 .my-a-tag {
-	color: var(--navy);
+	color: #9fb1eb;
+	padding: 2px;
+	background-color: rgba(1, 6, 63, 0.644);
 }
 .my-a-tag:hover {
 	color: white;
@@ -47,13 +54,11 @@ body {
 
 
 /* media queries default */
-
 @media only screen and (min-width: 550px) {
 	.tmpl-post {
 		padding: 4em 2.5em;
 	}
 }
-
 @media only screen and (min-width: 650px) {
 	.tmpl-post {
 		padding: 4em 4.5em;
@@ -204,8 +209,9 @@ pre {
 #archive {
 	margin-bottom: 1.5rem;
 }
-.footer-link:hover {
-	color: var(--blue);
+.my-footer-link:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 
@@ -231,26 +237,29 @@ section.backgrounds {
 	background-size: cover;
 }
 
-/* most recent post  */
+/* Day 6 Recap  */
 section.bg-1 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598522282/Day-3-Jeju/lum-market-3_fe3roe.jpg');
 }
+/* Day 5 Recap  */
 section.bg-2 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg');
 }
+/* Day 4 Recap  */
 section.bg-3 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg');
 }
+/* Day 3 Recap  */
 section.bg-4 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598523594/Day-3-Jeju/lum-waterfall-1_q957xg.jpg');
 }
+/* Day 2 Recap  */
 section.bg-5 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg');
 }
-
-/* first post */
+/* Day 1 Recap */
 section.bg-6 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg');
 }
 
 
