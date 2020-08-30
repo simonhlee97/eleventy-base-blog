@@ -260,7 +260,7 @@ section.bg-4 {
 }
 /* Day 2 Recap  */
 section.bg-5 {
-	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg');
+	background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598750042/Day-3-Jeju/3-waterfall-3_zu62zj.jpg');
 }
 /* Day 1 Recap */
 section.bg-6 {
@@ -296,13 +296,9 @@ section.bg-6 {
 #archive{
 	margin: 5rem 0;
 } 
-
-
 .post-title {
 	color: var(--darkred);
 }
-
-
 
 @keyframes ryuleft {
   0%   {left:-300px;}
