@@ -188,6 +188,13 @@ pre {
   text-decoration: underline;
 }
 
+/* fixing header size bug */
+@media only screen and (max-width: 385px) {
+	.nav-item {
+		margin: 0;
+	}
+}
+
 @media only screen and (min-width: 538px) {
 	.nav-item {
 		margin: 0 14px;
