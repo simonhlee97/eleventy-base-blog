@@ -10,7 +10,8 @@
   --white: #fff;
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-x: auto;
 }
 html,
 body {
