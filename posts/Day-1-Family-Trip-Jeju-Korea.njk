@@ -4,8 +4,6 @@ date: 2020-08-20
 tags: [travel, Jeju, Korea]
 layout: layouts/post.njk
 ---
-{% include "flexphotos.njk" %}
-{% include "masonrycss.njk" %}
 <!-- Excerpt Start -->
 <p class='my-excerpt my-5'>While most visitors to Korea discover Jeju when looking for tropical vacation options, families with young children will find a growing list of kid-friendly activities and attractions besides the beach.</p>
 <!-- Excerpt End -->
@@ -54,13 +52,16 @@ layout: layouts/post.njk
 
 <h1>Getting there</h1>
 <p>Because of COVID-19, people in Korea are reluctant to travel outside of the country this summer, as they would have to return to a mandatory 14-day quarantine. So Koreans are packing every flight to Jeju. A friend told me all the golf courses are pretty much booked for the rest of the golf season. So good luck getting a tee time if you are looking to play a round there. I didn't see an empty seat on the Jeju Airlines flight from Gimpo International Airport or the t'way Airlines flight we took back to Seoul. We stayed at a modest little hotel on the southwest end of the island, just a few steps away from beautiful <a href="https://goo.gl/maps/KXkYsF8nqmVsAAHG6" target="_blank">Cheonjeyeon Waterfall</a> and rented a little Hyundai Avante to traverse the palm-tree filled island. (Note: My wife did all the research and is a notorious online deals hoarder, so despite the high demand, it is possible to find decent prices for flights, hotel, and car rental. Fortunately for us, we visited Jeju just before the big "2nd Wave of COVID-19," otherwise we would have had to cancel our trip.)</p>
-
-<div class="grid">
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/gimpo-airport_o5k4tm.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/jeju-airport_yxr4zh.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/jeju-airlines-plane_s2nnpf.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum1_gc69vm.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/jeju-airlines-plane_s2nnpf.jpg')"></div>
+<div class="columns">
+	<div class="column">
+		<img src="https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/gimpo-airport_o5k4tm.jpg" alt="day1" />
+	</div>
+	<div class="column">
+		<img src="https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/jeju-airport_yxr4zh.jpg" alt="day1" />
+	</div>
+	<div class="column">
+		<img src="https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/jeju-airlines-plane_s2nnpf.jpg" alt="day1" />
+	</div>
 </div>
 <article class="message is-link">
   <div class="message-header">
@@ -80,15 +81,16 @@ layout: layouts/post.njk
 <h1 id='alive'>Alive Musuem - Illusion Theme Park</h1>
 <p>The Alive Museum blends optical illusion and popular art, giving Koreans the perfect product: 2 hours of selfie and portrait opportunities. Koreans love Picasso, Van Gogh, and European art. But they love taking photos of themselves in front of famous art even more. Many of the paintings have special spots marked on the floor for where to take photos. There was an outdoor go-cart racing track, which I was interested in, but was closed at the time due to weather.</p>
 
-<div class="flex-container">
-  <div><img src="https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum6_iiwt0z.jpg"></div>
-  <div><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731939/Day-1-Jeju/lumix-alivemuseum2_dv8vvf.jpg'></div>
-	<div><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731939/Day-1-Jeju/lumix-alivemuseum4_zyoigf.jpg'></div>
-  <div><img src='https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/alive-museum-4_auxw5f.jpg'></div> 
-	<div><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-alivemuseum7_dqkkvi.jpg'></div>
-	<div><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum3_eb0act.jpg'></div>
+<div class="columns">
+  <div class='column'><img src="https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum6_iiwt0z.jpg"></div>
+  <div class='column'><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731939/Day-1-Jeju/lumix-alivemuseum2_dv8vvf.jpg'></div>
+	<div class='column'><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731939/Day-1-Jeju/lumix-alivemuseum4_zyoigf.jpg'></div>
 </div>
-
+<div class="columns">
+  <div class='column'><img src='https://res.cloudinary.com/ryucave/image/upload/v1597653902/Day-1-Jeju/alive-museum-4_auxw5f.jpg'></div> 
+	<div class='column'><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-alivemuseum7_dqkkvi.jpg'></div>
+	<div class='column'><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-alivemuseum3_eb0act.jpg'></div>
+</div>
 <article class="message is-link my-6">
   <div class="message-header">
     <p>Links</p>
@@ -100,18 +102,18 @@ layout: layouts/post.njk
 		</ul>
   </div>
 </article>
-
-
 <hr>
 <h1 id='jumbo'>Jumbo Village - Elephant Show</h1>
 <p>Because of COVID-19, most people around the world cannot attend pro basketball and other live sports. Don't worry though, these Jeju elephants have plenty of skills and are ready to put on an all-star performance. Who doesn't love elephants that can play basketball, bowl a strike, play dead, or even dance to K-pop? These poor guys probably went through K-pop like intensive training for several months to prepare entertainment for all the kids invading the island. They do provide bananas for everyone in the audience, and a chance to feed them. After the show, for an extra fee, they offer a chance to ride one of the elephants. And try to buy tickets ahead of time. There are a limited number of shows, and schedules are posted online.</p>
 
-<div class="grid">
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-jumbo1_ey4vue.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo5_guobhw.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo2_nutwmk.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo4_qvksng.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo3_wtkri3.jpg')"></div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731940/Day-1-Jeju/lumix-jumbo1_ey4vue.jpg' alt='jumbo' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo5_guobhw.jpg' alt='jumbo' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo2_nutwmk.jpg' alt='jumbo' /></div>
+</div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo4_qvksng.jpg' alt='jumbo' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597731941/Day-1-Jeju/lumix-jumbo3_wtkri3.jpg' alt='jumbo' /></div>
 </div>
 <article class="message is-link my-6">
   <div class="message-header">
@@ -128,12 +130,14 @@ layout: layouts/post.njk
 <hr>
 <h1 id='beach'>Geumneung Beach</h1>
 <p>There are several popular beaches along the north, east, south, and west coasts of Jeju. We went to a familiar one that we liked last summer. Geumneung (금능해변) Beach is located on the northwest part of the island, with a great view of another much smaller island a few km away. It's a great place for sunsets and photos. There are bathrooms, showers (if you pay the fee), and plenty of food vendors, beer, and restaurants. The fried chicken place will bring your order to you if you are too lazy to make the short walk from the beach.</p>
-<div class="grid">
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-2_fvlvt5.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-3_grogm4.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598434484/Day-1-Jeju/lum-beach-5_ajjzw3.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1598433988/Day-1-Jeju/lum-beach-4_jwpyck.jpg')"></div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-2_fvlvt5.jpg' alt='beach' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-3_grogm4.jpg' alt='beach' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1598433348/Day-1-Jeju/lum-beach-1_kb2btu.jpg' alt='beach' /></div>
+</div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1598434484/Day-1-Jeju/lum-beach-5_ajjzw3.jpg' alt='beach' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1598433988/Day-1-Jeju/lum-beach-4_jwpyck.jpg' alt='beach' /></div>
 </div>
 <article class="message is-link">
   <div class="message-header">
@@ -151,12 +155,14 @@ layout: layouts/post.njk
 <p>The Jeju Black Pig is one of the biggest reasons why Koreans travel to Jeju. Most pork in Seoul comes from pink pigs, but in Jeju, most pork comes from their indigenous black pig. Native to the island, these pigs provide a tougher, crispier Korean bbq experience. It's a thicker cut of meat, without any marinade, and is cooked over familiar charcoals on your table. The meat and banchan (side veggies/kimchi) were absolutely delicious. We tried both the Jeju black pig and traditional (marinated) pork galbee. Both were fantastic. I always wrap meat in sesame leaf or lettuce, with grilled garlic and den-jang sauce. We usually grill the kimchi, too. This place had their own special dipping sauce that was heated inside a tin-foil cup, which is also absolutely delicious. We really enjoyed our dinner, even though I have a hard time eating while sitting on the floor. If you want to experience an authentic Jeju dinner, find places like Young-Lim-Heuk-Doeji-Garden.</p>
 <p>When searching for good restaurants on the island, my wife has some strict criteria, and avoids popular (amongst tourists) establishments. Instead, she scours through the Naver blogs and finds restaurants where local Jeju islanders eat. We knew we were the only tourists there, as we could hear Jeju residents speaking their distinct dialect of Korean (aside from our beach attire).</p>
 
-<div class="grid">
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-5_fuaecr.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-1_sp8t72.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-2_pyqhbd.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-6_wfhl1i.jpg')"></div>
-  <div class="g-item" style="background-image: url('https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-3_ieeljz.jpg')"></div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-1_sp8t72.jpg' alt='pork-rest' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-2_pyqhbd.jpg' alt='pork-rest' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-3_ieeljz.jpg' alt='pork-rest' /></div>
+</div>
+<div class="columns">
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-5_fuaecr.jpg' alt='pork-rest' /></div>
+	<div class="column"><img src='https://res.cloudinary.com/ryucave/image/upload/v1597656385/Day-1-Jeju/jeju-pork-dinner-6_wfhl1i.jpg' alt='pork-rest' /></div>
 </div>
 <article class="message is-link">
   <div class="message-header">
@@ -168,5 +174,3 @@ layout: layouts/post.njk
 		</ul>
   </div>
 </article>
-
-{# <p>Jeju is a wonderful little island, full of options for every type of traveler. Beautiful beaches, great food, Korean street markets, plenty of mountains and hiking, a wide variety of hotels, pensions, and guest houses, and great urban and countryside balance. It would take at minimum 2 weeks to experience the entire island, so plan ahead and make an itinerary.</p> #}
